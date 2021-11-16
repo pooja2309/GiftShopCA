@@ -1,0 +1,7 @@
+22:38:20.237 [main] INFO  Runner.GiftShopRunner - getting browser name
+22:38:44.754 [main] INFO  Runner.GiftShopRunner - setting chrome driver and opening website
+22:39:12.740 [main] INFO  Runner.GiftShopRunner - Searched products from excel sheet
+22:39:32.065 [main] INFO  Runner.GiftShopRunner - Corporate Gifts entry successful
+22:39:57.659 [main] INFO  Runner.GiftShopRunner - Added personalized gift successfully
+22:41:20.040 [main] INFO  Runner.GiftShopRunner - getting browser name
+22:41:23.468 [main] INFO  Runner.GiftShopRunner - setting chrome driver and opening website

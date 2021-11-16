@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="Runner.GiftShopRunner">
+        <methods>
+          <include name="openwishlist"/>
+          <include name="createaccount"/>
+          <include name="newsletter"/>
+          <include name="openwebsite"/>
+          <include name="giftcard"/>
+          <include name="corporategift"/>
+          <include name="shopbycategory"/>
+          <include name="close"/>
+          <include name="setdriver"/>
+          <include name="searchprods"/>
+          <include name="personalized"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Runner.GiftShopRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

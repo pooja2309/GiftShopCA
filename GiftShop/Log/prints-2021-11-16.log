@@ -1,0 +1,7 @@
+15:01:12.227 [main] INFO  Runner.GiftShopRunner - Corporate Gifts entry successful
+15:01:33.725 [main] INFO  Runner.GiftShopRunner - Added personalized gift successfully
+15:01:42.911 [main] INFO  Runner.GiftShopRunner - setting chrome driver and opening website
+15:01:50.733 [main] INFO  Runner.GiftShopRunner - Log into Account
+15:02:01.927 [main] INFO  Runner.GiftShopRunner - Creating Account
+15:02:12.800 [main] INFO  Runner.GiftShopRunner - Gift cards - COD and Wishlist
+15:02:24.396 [main] INFO  Runner.GiftShopRunner - Wish List

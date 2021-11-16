@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122551" started-at="2021-11-16T09:30:27Z" finished-at="2021-11-16T09:32:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122551" started-at="2021-11-16T09:30:27Z" finished-at="2021-11-16T09:32:29Z">
+      <class name="Runner.GiftShopRunner">
+        <test-method status="PASS" signature="setdriver()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="setdriver" duration-ms="16174" started-at="2021-11-16T15:00:27Z" finished-at="2021-11-16T15:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdriver -->
+        <test-method status="PASS" signature="openwebsite()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="openwebsite" duration-ms="3630" started-at="2021-11-16T15:00:43Z" depends-on-methods="Runner.GiftShopRunner.setdriver" finished-at="2021-11-16T15:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method status="PASS" signature="searchprods(java.lang.String)[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="searchprods" duration-ms="15376" started-at="2021-11-16T15:00:47Z" data-provider="getCredentials" depends-on-methods="Runner.GiftShopRunner.openwebsite" finished-at="2021-11-16T15:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\pooja\eclipse-workspace\GiftShop\testdata\excelsheet.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchprods -->
+        <test-method status="PASS" signature="corporategift()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="corporategift" duration-ms="9757" started-at="2021-11-16T15:01:02Z" depends-on-methods="Runner.GiftShopRunner.searchprods" finished-at="2021-11-16T15:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporategift -->
+        <test-method status="PASS" signature="personalized()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="personalized" duration-ms="21484" started-at="2021-11-16T15:01:12Z" depends-on-methods="Runner.GiftShopRunner.corporategift" finished-at="2021-11-16T15:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalized -->
+        <test-method status="PASS" signature="shopbycategory()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="shopbycategory" duration-ms="9184" started-at="2021-11-16T15:01:33Z" depends-on-methods="Runner.GiftShopRunner.personalized" finished-at="2021-11-16T15:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopbycategory -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="login" duration-ms="7820" started-at="2021-11-16T15:01:42Z" depends-on-methods="Runner.GiftShopRunner.shopbycategory" finished-at="2021-11-16T15:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createaccount()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="createaccount" duration-ms="13569" started-at="2021-11-16T15:01:50Z" depends-on-methods="Runner.GiftShopRunner.login" finished-at="2021-11-16T15:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method status="PASS" signature="giftcard()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="giftcard" duration-ms="8493" started-at="2021-11-16T15:02:04Z" depends-on-methods="Runner.GiftShopRunner.createaccount" finished-at="2021-11-16T15:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcard -->
+        <test-method status="PASS" signature="openwishlist()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="openwishlist" duration-ms="11593" started-at="2021-11-16T15:02:12Z" depends-on-methods="Runner.GiftShopRunner.giftcard" finished-at="2021-11-16T15:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwishlist -->
+        <test-method status="PASS" signature="newsletter()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="newsletter" duration-ms="3532" started-at="2021-11-16T15:02:24Z" depends-on-methods="Runner.GiftShopRunner.openwishlist" finished-at="2021-11-16T15:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsletter -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Runner.GiftShopRunner@6b6776cb]" name="close" is-config="true" duration-ms="1884" started-at="2021-11-16T15:02:27Z" finished-at="2021-11-16T15:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Runner.GiftShopRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
