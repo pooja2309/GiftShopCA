@@ -115,17 +115,7 @@ public class GiftShopRunner {
 		log.info("Added personalized gift successfully");
 	}
 
-	// Shop by category
-	@Test(dependsOnMethods = { "personalized" })
-	public void shopbycategory() throws InterruptedException {
-		Shopbycategory sc = new Shopbycategory(driver, er);
-		ShopobycategoryUI scloc = new ShopobycategoryUI(driver);
-		sc.clickonshopbycategory(lploc);
-		driver = helper.changetonewdriver(driver);
-		sc.sortBy(scloc);
-		log.info("setting chrome driver and opening website");
-	}
-
+	
 	@Test(dependsOnMethods = { "login" })
 	public void createaccount() throws InterruptedException {
 		loginpageloc = new LoginpageUI(driver);
@@ -142,7 +132,7 @@ public class GiftShopRunner {
 		driver.get(wurl);
 	}
 
-	@Test(dependsOnMethods = { "shopbycategory" })
+	@Test(dependsOnMethods = { "personalized" })
 	public void login() throws InterruptedException {
 		loginpageloc = new LoginpageUI(driver);
 		Login login = new Login(driver, er);
